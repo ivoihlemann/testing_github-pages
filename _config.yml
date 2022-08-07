@@ -2,6 +2,8 @@ collections:
   authors:
     output: true
 
+baseurl: /testing_github-pages
+
 
 defaults:
   - scope:
