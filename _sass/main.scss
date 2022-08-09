@@ -32,6 +32,9 @@ img[alt=bild] { width: 200px; }
 @media (max-width: 1000px) {
   .nav_li {
     float: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: gold;
   }
   .nav_a {
     width: 100%;
