@@ -4,7 +4,7 @@ collections:
 
 baseurl: /testing_github-pages
 
-include: Bilder
+include: bilder
 
 defaults:
   - scope:

@@ -6,6 +6,6 @@ position: Testding
 # Ueberschrift
 
 ein Text mit  
-![bild](Bilder/test.jpg)  
-[![bild](Bilder/test2.jpg)](Bilder/test2.jpg)  
-<img src="Bilder/test.jpg" width=200px>
+![bild](bilder/test.jpg)  
+[![bild](bilder/test2.jpg)](bilder/test2.jpg)  
+<img src="bilder/test.jpg" width=200px>
