@@ -11,8 +11,10 @@
 }
 @media (max-width: 1000px) {
   .nav_li {
-    width: 25%;
     float: none;
+  }
+  .nav_a {
+    width: 100%;
   }
 }
 
@@ -29,13 +31,7 @@
 }
 
 .current {
-	color: green;
+	color: gold;
 }
 
 img[alt=bild] { width: 200px; }
-
-@media (min-width: 900px) {
-  body {
-    background: #ffffff;
-  }
-}
