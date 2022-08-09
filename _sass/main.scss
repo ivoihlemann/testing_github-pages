@@ -27,3 +27,19 @@
 }
 
 img[alt=bild] { width: 200px; }
+
+@media (min-width: 1100px) {
+  body {
+    background: #fffa84;
+  }
+}
+@media (max-width: 1100px) {
+  body {
+    background: #50f7b2;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    background: #f95e8a;
+  }
+}
