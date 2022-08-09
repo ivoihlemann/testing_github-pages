@@ -9,6 +9,12 @@
 .nav_li {
 	float: left;
 }
+@media (max-width: 1000px) {
+  .nav_li {
+    width: 25%;
+    float: none;
+  }
+}
 
 .nav_a {
 	display: inline-block;
@@ -28,13 +34,8 @@
 
 img[alt=bild] { width: 200px; }
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   body {
-    background: #fffa84;
-  }
-}
-@media (max-width: 1100px) {
-  body {
-    background: #50f7b2;
+    background: #ffffff;
   }
 }
