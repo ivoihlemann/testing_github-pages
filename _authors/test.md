@@ -6,6 +6,6 @@ position: Testding
 # Ueberschrift
 
 ein Text mit  
-![bild](bilder/test.jpg)  
-[![bild](bilder/test2.jpg)](bilder/test2.jpg)  
-<img src="bilder/test.jpg" width=200px>
+![bild]({{ site.baseurl }}/bilder/test.jpg)  
+[![bild]({{ site.baseurl }}/bilder/test2.jpg)]({{ site.baseurl }}/bilder/test2.jpg)  
+<img src="{{ site.baseurl }}/bilder/test.jpg" width=200px>
