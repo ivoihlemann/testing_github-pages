@@ -4,9 +4,10 @@ title: Impressum
 ---
 # Impressum
 ## Kontakt
-Etwas
-Blabla Straße 3
-{{ site.data.kontakt.strasse }}
+Vorname Nachname / Vereinsname  
+Blabla Straße 3  
 99999 Irgendwo
 ## Verantwortlich
-jemand
+Vorname Nachname  
+Strasse Nr.  
+88888 Woanders
