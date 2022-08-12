@@ -1,8 +1,10 @@
-- name: Willkommen
-  link: /
 - name: Blog
-  link: /blog.html
+  link: /
 - name: Termine
   link: /termine.html
+- name: Über
+  link: /ueber.html
+- name: Trachtnet
+  link: /trachtnet.html
 - name: Impressum
   link: /impressum.html
