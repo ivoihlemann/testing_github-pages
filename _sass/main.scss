@@ -29,11 +29,19 @@ nav a:hover {
 	background-color: #111;
 }
 
+nav {
+	margin-bottom: 2em;
+}
+
 .current {
 	color: gold;
 }
 
 img[alt=bild] { width: 200px; }
+
+.spacer {
+	width: 19.1%;
+}
 
 @media (max-width: 1000px) {
   nav li {
@@ -47,5 +55,8 @@ img[alt=bild] { width: 200px; }
   }
   body {
     font-size: 2em;
+  }
+  .spacer {
+	  width: 0;
   }
 }
