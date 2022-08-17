@@ -5,6 +5,10 @@
 	color: Black;
 }
 
+body {
+	font-size: calc(0.5em + 1vmin);
+}
+
 a {
 	text-decoration-line: underline;
 	text-decoration-style: dotted; 
@@ -34,7 +38,7 @@ img {
 	}
 
 	nav ul li {
-		font-size: 150%;
+		font-size: 1.5em;
 		display: inline;
 	}
 
@@ -51,15 +55,13 @@ img {
 	nav ul {
 		list-style: none;
 		padding: 0;
+		text-align: center;
 	}
 
-	nav li {
+	nav ul li {
+		font-size: 1.5em;
 	}
 
 	nav a {
-	}
-
-	body {
-		font-size: 200%;
 	}
 }
