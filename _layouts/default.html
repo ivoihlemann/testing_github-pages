@@ -3,20 +3,17 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
 <link rel="stylesheet" href="{{ site.baseurl }}/main.css">
 </head>
 <body>
 {% include navigation.html %}
-	<table style="width:100%">
-		<tr>
-			<td class="spacer">
-			</td>
-			<td>
-				{{ content }}
-			</td>
-			<td class="spacer">
-			</td>
-		</tr>
-	</table>
+<table class="content">
+	<tr>
+		<td>
+			{{ content }}
+		</td>
+	</tr>
+</table>
 </body>
 </html>

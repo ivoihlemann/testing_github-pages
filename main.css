@@ -1,57 +1,18 @@
+
 * {
-	font-family: "Barlow";
-	font-style: normal;
-	font-weight: 400;
+	font-family: "Lora", Lora, serif;
+	font-weight: normal;
+	color: Black;
 }
 
 a {
-	color: Black;
 	text-decoration-line: underline;
 	text-decoration-style: dotted; 
 	letter-spacing: 1px;
 }
 
-ul, ol {
-	padding-left: 1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-nav div {
-	background-color: Red;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	/*background-color: #333;*/
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-width: 1px;
-}
-
-nav li {
-	float: left;
-}
-
-nav a {
-	display: inline-block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-nav a:hover {
-	/*background-color: #111;*/
-	text-decoration: overline underline;
-}
-
-nav {
-	margin-bottom: 2em;
+img {
+	width: 100%;
 }
 
 .current {
@@ -59,26 +20,46 @@ nav {
 	text-decoration: overline underline;
 }
 
-img { width: 100%; }
-
-.spacer {
-	width: 19.1%;
+.content {
+	margin: auto;
 }
 
+@media (min-width: 1001px) {
+	nav ul {
+		border: 1px solid Gray;
+		border-width: 1px 0;
+		list-style: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	nav ul li {
+		font-size: 150%;
+		display: inline;
+	}
+
+	nav ul a {
+		display:inline-block;
+		padding:10px;
+	}
+
+	.content {
+		max-width: 61.8%;
+	}
+}
 @media (max-width: 1000px) {
-  nav li {
-    float: none;
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: gold;
-  }
-  nav a {
-    width: 100%;
-  }
-  body {
-    font-size: 2em;
-  }
-  .spacer {
-	  width: 0;
-  }
+	nav ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	nav li {
+	}
+
+	nav a {
+	}
+
+	body {
+		font-size: 200%;
+	}
 }
