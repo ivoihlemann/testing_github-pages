@@ -24,7 +24,35 @@ img {
 	margin: auto;
 }
 
-@media (min-width: 1001px) {
+/* ----- ----- responsive nav bar ----- ----- */
+@media (max-width: 650px) {
+	/* mobile */
+	nav ul {
+		list-style: none;
+		padding: 0;
+		text-align: center;
+	}
+
+	nav ul li {
+		font-size: 1.5em;
+	}
+
+	nav a {
+	}
+}
+
+@media (min-width: 650px) {
+	/* medium sized window / tabled */
+	body {
+		margin-top: 4em;
+	}
+	nav {
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: White;
+	}
 	nav ul {
 		border: 1px solid Gray;
 		border-width: 1px 0;
@@ -40,24 +68,38 @@ img {
 
 	nav ul a {
 		display:inline-block;
-		padding:10px;
+		padding: 10px;
 	}
+}
+/* ----- ----- responsive nav bar ----- ----- */
 
+/* ----- ----- responsive width of content ----- ----- */
+.content {
+	width: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+	.content {
+		max-width: 75%;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
 	.content {
 		max-width: 61.8%;
 	}
 }
-@media (max-width: 1000px) {
-	nav ul {
-		list-style: none;
-		padding: 0;
-		text-align: center;
-	}
 
-	nav ul li {
-		font-size: 1.5em;
-	}
-
-	nav a {
+@media (min-width: 1400px) and (max-width: 1600px) {
+	.content {
+		max-width: 50%;
 	}
 }
+
+@media (min-width: 1600px) {
+	.content {
+		max-width: 40%;
+	}
+
+/* ----- ----- responsive width of content ----- ----- */
+
