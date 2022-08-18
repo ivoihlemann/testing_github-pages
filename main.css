@@ -27,6 +27,11 @@ img {
 /* ----- ----- responsive nav bar ----- ----- */
 @media (max-width: 650px) {
 	/* mobile */
+	nav {
+		border: 1px solid Gray;
+		border-width: 0 0 1px 0;
+	}
+
 	nav ul {
 		list-style: none;
 		padding: 0;
@@ -35,9 +40,6 @@ img {
 
 	nav ul li {
 		font-size: 1.5em;
-	}
-
-	nav a {
 	}
 }
 
@@ -51,13 +53,12 @@ img {
 		position: fixed;
 		left: 0;
 		top: 0;
-		background-color: White;
-	}
-	nav ul {
+		background: White;
 		border: 1px solid Gray;
 		border-width: 1px 0;
+	}
+	nav ul {
 		list-style: none;
-		padding: 0;
 		text-align: center;
 	}
 
@@ -67,8 +68,8 @@ img {
 	}
 
 	nav ul a {
-		display:inline-block;
-		padding: 10px;
+		display: inline-block;
+		padding: 0 10px 0 10px;
 	}
 }
 /* ----- ----- responsive nav bar ----- ----- */
